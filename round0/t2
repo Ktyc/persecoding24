@@ -1,0 +1,4 @@
+given=input()
+price=input()
+number_of_rides=int(given)//int(price)
+print(number_of_rides)
