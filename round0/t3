@@ -1,0 +1,11 @@
+encrypted=input()
+decrypt=''
+#if len(encrypted)==2 or len(encrypted)==1 or len(encrypted)==0:
+if len(encrypted) <= 2:  
+  print(encrypted)
+else:
+  for i in range(2,len(encrypted)):
+    decrypt+=encrypted[i]
+    print(f"decrypt: {decrypt}")
+  decrypt=decrypt+encrypted[0]+encrypted[1]
+  print(decrypt)
